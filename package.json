@@ -1,5 +1,5 @@
 {
-  "name": "jikan-node",
+  "name": "jikan-nodev4",
   "version": "1.0.0",
   "description": "Modern, zero-dependency Node.js wrapper for the Jikan v4 API (unofficial MyAnimeList API)",
   "author": "kacalayar <kacalayar64@gmail.com>",
@@ -42,10 +42,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kacalayar/jikan-node.git"
+    "url": "git+https://github.com/kacalayar/jikan-nodev4.git"
   },
   "bugs": {
-    "url": "https://github.com/kacalayar/jikan-node/issues"
+    "url": "https://github.com/kacalayar/jikan-nodev4/issues"
   },
-  "homepage": "https://github.com/kacalayar/jikan-node#readme"
+  "homepage": "https://github.com/kacalayar/jikan-nodev4#readme"
 }
