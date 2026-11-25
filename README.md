@@ -21,11 +21,11 @@ Most existing Jikan wrappers are outdated, unmaintained, or stuck on Jikan v3. *
 ## Installation
 
 ```bash
-npm install jikan-node
+npm install jikan-nodev4
 # or
-yarn add jikan-node
+yarn add jikan-nodev4
 # or
-pnpm add jikan-node
+pnpm add jikan-nodev4
 ```
 
 Requires **Node.js 18+** (for the global `fetch`).
