@@ -1,0 +1,51 @@
+{
+  "name": "jikan-node",
+  "version": "1.0.0",
+  "description": "Modern, zero-dependency Node.js wrapper for the Jikan v4 API (unofficial MyAnimeList API)",
+  "author": "kacalayar <kacalayar64@gmail.com>",
+  "keywords": [
+    "jikan",
+    "myanimelist",
+    "mal",
+    "anime",
+    "manga",
+    "api",
+    "wrapper",
+    "client",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "types",
+    "README.md",
+    "SECURITY.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "example": "node examples/basic.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kacalayar/jikan-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kacalayar/jikan-node/issues"
+  },
+  "homepage": "https://github.com/kacalayar/jikan-node#readme"
+}
